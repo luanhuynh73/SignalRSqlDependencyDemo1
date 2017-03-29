@@ -8,6 +8,7 @@ namespace SignalRDbUpdates
     {
         public void Configuration(IAppBuilder app)
         {
+            //testing stuff
             ConfigureAuth(app);
             app.MapSignalR();   
         }
